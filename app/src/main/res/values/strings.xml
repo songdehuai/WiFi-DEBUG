@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WiFi-DEBUG</string>
+    <string name="large_text">
+        一、原理:
+
+            \n1.让手机监听自己的某一个端口。
+
+            \n2.让电脑端的adb连接这个端口。
+        \n\n
+        二、方法：
+
+           \n 1.让电脑和手机处于同一个wifi下。
+
+           \n 2.将手机进行root，请自行解决。
+
+          \n  3.电脑端打开cmd窗口，进入adb.exe所在目录，输入adb connect a.b.c.d 其中a.b.c.d是手机端ip。
+          \n  4.如果执行成功后电脑连接不上，出现无响应或者手机主动拒绝连接等，请重新点击执行
+
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>
